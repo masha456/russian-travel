@@ -1,4 +1,5 @@
 .cover__title {
+  box-sizing: border-box;
   max-width: 560px;
   font-weight: 900;
   font-size: 72px;
@@ -8,28 +9,17 @@
   z-index: 1;
   }
 
-  @media(max-width: 1024px) {
+  @media(max-width: 550px) {
     .cover__title{
-
-    }
-  }
-  @media(max-width: 768px) {
-    .cover__title{
-
-    }
-  }
-  @media(max-width: 568px) {
-    .cover__title{
-
+      max-width: 470px;
+      font-size: 45px;
+      line-height: 49px;
     }
   }
   @media(max-width: 480px) {
     .cover__title{
-
-    }
-  }
-  @media(max-width: 320px) {
-    .cover__title{
-
+      max-width: 288px;
+      font-size: 32px;
+      line-height: 35px;
     }
   }

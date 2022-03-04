@@ -4,13 +4,23 @@
   box-sizing: border-box;
 }
 
-@media(max-width: 1024px) {
-  .cover{
-
+@media screen and (max-width: 1150px) {
+  .cover {
+    max-width: 1024px;
   }
 }
-@media(max-width: 320px) {
-  .cover{
 
+@media screen and (max-width: 800px) {
+  .cover {
+    max-width: 768px;
+    margin-top: 90px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .cover {
+    max-width: 400px;
+    margin: 66px auto 0;
   }
 }
