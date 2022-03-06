@@ -2,4 +2,6 @@
   color: #fff;
   font-size: 18px;
   line-height: 22px;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
 }

@@ -2,28 +2,29 @@
   max-width: 690px;
   display: flex;
   flex-direction: column;
+  justify-content: start;
   margin-left: 148px;
   margin-top: 92px;
   margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1050px) {
   .intro {
     max-width: 690px;
-     margin-left: 48px;
+    margin-left: 48px;
   }
  }
 
 @media screen and (max-width: 800px) {
   .intro {
-    max-width: 720px;
+    max-width: 800px;
     margin: 88px 24px;
   }
  }
 
  @media screen and (max-width: 500px) {
   .intro {
-    max-width: 288px;
+    max-width: 285px;
     margin: 64px 16px;
   }
  }
