@@ -3,9 +3,9 @@
   line-height: 18px;
   color: #fff;
   text-decoration: none;
-  transition: opacity .1s linear;
+  transition: opacity .2s linear;
 }
 
 .footer__link:hover {
-  opacity: .8;
+  opacity: .5;
 }
