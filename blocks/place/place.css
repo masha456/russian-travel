@@ -3,3 +3,24 @@
   grid-template-columns: fit-content(460px) 1fr;
   gap: 48px 40px;
 }
+
+@media screen and (max-width: 1050px) {
+  .place {
+    grid-template-columns: fit-content(440px) 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .place {
+    grid-template-columns: fit-content(340px) 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place {
+    grid-template-columns: fit-content(320px);
+    gap: 32px;
+  }
+}

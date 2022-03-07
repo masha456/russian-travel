@@ -2,8 +2,31 @@
   max-width: 1184px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  align-items: flex-end;
+  margin: 0 48px;
   padding-top: 92px;
   padding-bottom: 24px;
 }
 
+@media screen and (max-width:1050px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .footer {
+    max-width: 720px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .footer {
+    flex-direction: column;
+    padding-top: 64px;
+    max-width: 186px;
+    margin: 0 16px;
+    align-items: start;
+  }
+}

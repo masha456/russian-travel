@@ -4,3 +4,11 @@
   grid-auto-rows: min-content;
   gap: 26px;
 }
+
+@media screen and (max-width: 800px) {
+  .place__text {
+    gap: 25px;
+  }
+}
+
+

@@ -4,3 +4,11 @@
   text-align: right;
   margin: 0;
 }
+
+@media screen and (max-width: 500px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+    padding-top:16px;
+  }
+}

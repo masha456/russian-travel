@@ -6,3 +6,26 @@
   grid-template-rows: 1fr;
   gap: 80px;
 }
+
+@media screen and (max-width: 1050px) {
+  .places {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .places {
+    padding: 0 24px;
+    gap: 73px;
+    margin-top: 88px;
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .places {
+    margin: 64px auto 66px;
+    padding: 0;
+    gap: 50px;
+  }
+}

@@ -28,3 +28,25 @@
 .cover__link:hover::after {
   opacity: .8;
 }
+
+@media screen and (max-width: 1050px) {
+  .cover__link {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cover__link {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .cover__link {
+    max-width: 320px;
+    min-height: 200px;
+  }
+}
