@@ -4,7 +4,7 @@
 
 **Описание**
 
-Для закрепления изученных навыков создан проект [russian-travel](https://github.com/masha456/russian-travel)
+Для закрепления изученных навыков создан проект [russian-travel](https://masha456.github.io/russian-travel/)
 
 Использованы:
 
