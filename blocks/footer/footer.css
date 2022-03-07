@@ -18,10 +18,11 @@
   .footer {
     max-width: 720px;
     padding-top: 88px;
+    margin: 0 24px;
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:730px) {
   .footer {
     flex-direction: column;
     padding-top: 64px;

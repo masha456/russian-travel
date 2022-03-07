@@ -18,7 +18,19 @@
   }
 }
 
+@media screen and (max-width: 650px) {
+  .place {
+    grid-template-columns: fit-content(540px);
+  }
+}
+
 @media screen and (max-width: 500px) {
+  .place {
+    grid-template-columns: fit-content(450px);
+  }
+}
+
+@media screen and (max-width: 350px) {
   .place {
     grid-template-columns: fit-content(320px);
     gap: 32px;

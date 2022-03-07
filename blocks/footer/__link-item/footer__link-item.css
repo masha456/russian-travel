@@ -2,7 +2,7 @@
   padding: 0 18px 0 0;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:730px) {
   .footer__link-item {
     padding-bottom: 32px;
   }
